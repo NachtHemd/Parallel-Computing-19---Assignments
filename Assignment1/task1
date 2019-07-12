@@ -1,0 +1,10 @@
+To install a package on my operating system, which is CentOS, I have to use the yum package manager.
+First I have to get root access by requesting superuser and then authenticating with the root password. After assuming root permissions, I can run yum install [package name] to install any package I like. This time, I will install the GNU Compiler Collection aka gcc. 
+
+Linux package managers will also resolve dependencies, which will also be updated or installed if necessary. After confirmation it will completely install it by itself.
+
+
+
+Screenshots:
+https://i.imgur.com/KPxkDdm.jpg
+https://i.imgur.com/0PSKFif.jpg
