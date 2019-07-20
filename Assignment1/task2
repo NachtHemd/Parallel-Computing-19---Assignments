@@ -1,0 +1,10 @@
+2a) /srv/home/[MY EULER USERNAME] , my home directory
+2b) A bash shell is running on euler
+2c)
+	-a Also shows hidden directories and files
+	-d Only lists directories
+	-l Lists properties such as size, owner, permissions, date etc. too
+	-r Reverses the sorting order
+	-t Sorts by date modified, newest first
+2d) 1040 lines
+2e) 8.2.0
