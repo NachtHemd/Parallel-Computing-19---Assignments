@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 		printf("Only one command line argument permitted.\n");
 		exit(1);
 	}
-	int i,k;
+	int i;
 	int n = atoi(argv[1]);
 	if (n < 0 || n > 100) {
 		printf("Argument has to be between 0 and 100.\n");
