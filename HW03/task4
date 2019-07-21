@@ -1,0 +1,12 @@
+1) Unit testing is the verification of the functionality in a part of the code, usually modules.
+2) Integration testing is the verification of communication between different components over interfaces which includes a great amount of code.
+3) Functional testing is the verification of the functionality in specific, small parts of the code and looking out for unexpected behaviour with differing inputs. It is part of the quality assurance.
+4) An end to end test executes the entire program from start to finish and is mainly for finding errors between data interfaces.
+5) Performance testing is used to determine the responsiveness, speed and stability of programs under different load scenarios.
+6) Usability testing is testing the program with customers who will give feedback for the user interface.
+7) Acceptance tests determine if the product fulfills all requirements set by the customer and is ready to be used.
+8) Beta testing is giving the customer access to an unfinished version of the product in order to receive feedback, bug reports and other ideas from them.
+
+Other testing types:
+Security testing: Testing a program for security flaws to prevent hackers to take control or acquire sensitive data.
+Destructive testing: Testing the behaviour of a program while some modules being broken to add safeguards.

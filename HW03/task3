@@ -3,4 +3,4 @@ b) 0x7fffffffdfb8
 c) 0x7fffffffdfb7
 d) 10
 e) 266
-f) It is good to know first that an int is 4 bytes long and a char 2 bytes. The value of arr[0], which is an integer, was 10 which means it is stored as 0000000A (hex) in those 4 bytes. Line 16 casts p to a char and then adds 1 to it which leads to a jump of 2 bytes instead of 4 bytes. Writing c, which is 1, to that address leads to arr[0] to be read as 0000010A in hex, which translates to 266 in decimal.
+f) It is good to know first that an int is 4 bytes long and a char 2 bytes. The value of arr[0], which is an integer, was 10 which means it is stored as A0000000 (hex, LSB) in those 4 bytes. Line 16 casts p to a char and then adds 1 to it which leads to a jump of 1 byte instead of 4 bytes. Writing c, which is 1, to that address leads to arr[0] to be read as A0100000 in hex, which translates to 266 in decimal.
